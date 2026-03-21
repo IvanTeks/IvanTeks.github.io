@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;1,9..144,300;1,9..144,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ======= NAV ======= -->
+  <nav class="nav">
+    <a href="#" class="nav-logo">Shepard<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ======= HERO ======= -->
+  <section class="hero" id="home">
+    <div class="hero-eyebrow">
+      <span class="status-dot"></span>
+      Available for work
+    </div>
+
+    <h1 class="hero-heading">
+      <span class="hero-line">Ivan</span>
+      <span class="hero-line italic">Tekenah</span>
+    </h1>
+
+    <div class="hero-footer">
+      <p class="hero-desc">
+        CS student. Building things across web.
+        
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">See my work</a>
+        <a href="#contact" class="btn-ghost">Say hello</a>
+      </div>
+    </div>
+
+    <div class="hero-ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>Web Dev</span><span class="sep">✦</span>
+        <span>Cloud</span><span class="sep">✦</span>
+        <span>Ethical Hacking</span><span class="sep">✦</span>
+        <span>AI / ML</span><span class="sep">✦</span>
+        <span>Web Dev</span><span class="sep">✦</span>
+        <span>Cloud</span><span class="sep">✦</span>
+        <span>Ethical Hacking</span><span class="sep">✦</span>
+        <span>AI / ML</span><span class="sep">✦</span>
+        <span>Web Dev</span><span class="sep">✦</span>
+        <span>Cloud</span><span class="sep">✦</span>
+        <span>Ethical Hacking</span><span class="sep">✦</span>
+        <span>AI / ML</span><span class="sep">✦</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= ABOUT ======= -->
+  <section class="about section" id="about">
+    <div class="about-label section-label">01 — About</div>
+    <div class="about-body">
+      <p class="about-big">
+        I'm a computer science student who loves building things and learning how they work.
+        <!-- obsessed with how things work under the hood —
+        from the front-end pixels users see, to the cloud infra holding it up,
+        to the vulnerabilities no one's supposed to find. -->
+        
+      </p>
+      <div class="about-detail">
+        <p>
+          Currently studying at Canisius University.
+          <!-- When I'm not coding I'm doing CTF challenges, messing with Linux,
+          or going down research rabbit holes on AI. -->
+          <!-- EDIT: personalise this -->
+        </p>
+        <p>
+          Looking for internships, freelance work, or just interesting
+          people to build cool stuff with.
+        </p>
+        <a href="mailto:ivantekenah@outlook.com" class="inline-link">ivantekenah@outlook.com</a>  <a href="mailto:tekenahivan@gmail.com" class="inline-link">tekenahivan@gmail.com</a>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= SKILLS ======= -->
+  <section class="skills section" id="skills">
+    <div class="section-label">02 — Skills</div>
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <div class="skill-card-header">
+          <span class="skill-area">Web</span>
+          <h3 class="skill-title">Web Development</h3>
+        </div>
+        <p class="skill-desc">Frontend to backend. Building fast, clean interfaces and solid APIs.</p>
+        <ul class="skill-list">
+          <!-- EDIT: only list things you've actually used -->
+          <li>HTML / CSS / JavaScript</li>
+          <li>React</li>
+          <li>Node.js &amp; Express</li>
+          <li>TypeScript</li>
+          <li>Figma / UI Design</li>
+        </ul>
+      </div>
+
+      <!-- <div class="skill-card">
+        <div class="skill-card-header">
+          <span class="skill-area">Cloud</span>
+          <h3 class="skill-title">Cloud &amp; DevOps</h3>
+        </div>
+        <p class="skill-desc">Deploying and managing things that don't fall over.</p>
+        <ul class="skill-list">
+          <li>AWS (EC2, S3, Lambda)</li>
+          <li>Docker &amp; Containers</li>
+          <li>Linux / Bash</li>
+          <li>Git &amp; GitHub Actions</li>
+          <li>CI/CD Pipelines</li>
+        </ul>
+      </div> -->
+
+      <!-- <div class="skill-card">
+        <div class="skill-card-header">
+          <span class="skill-area">Sec</span>
+          <h3 class="skill-title">Ethical Hacking</h3>
+        </div>
+        <p class="skill-desc">Learning how systems break so I can build them better.</p>
+        <ul class="skill-list">
+          <li>Network Fundamentals</li>
+          <li>Kali Linux</li>
+          <li>OWASP Top 10</li>
+          <li>CTF Competitions</li>
+          <li>Vulnerability Assessment</li>
+        </ul>
+      </div> -->
+
+      <!-- <div class="skill-card">
+        <div class="skill-card-header">
+          <span class="skill-area">AI</span>
+          <h3 class="skill-title">AI &amp; Machine Learning</h3>
+        </div>
+        <p class="skill-desc">Exploring intelligent systems and what they can actually do.</p>
+        <ul class="skill-list">
+          <li>Python</li>
+          <li>TensorFlow / Keras</li>
+          <li>Scikit-learn</li>
+          <li>Data Analysis (Pandas)</li>
+          <li>API Integration</li>
+        </ul>
+      </div> -->
+
+    </div>
+  </section>
+
+  <!-- ======= PROJECTS ======= -->
+  <section class="projects section" id="projects">
+    <div class="section-label">03 — Projects</div>
+    <div class="projects-list">
+
+      <!-- EDIT: one article block per project. copy/paste to add more -->
+      <article class="project-item">
+        <div class="project-meta">
+          <span class="project-num">01</span>
+          <span class="project-type">Web Dev</span>
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">Project Name Here</h3>
+          <p class="project-desc">
+            Short punchy description. What does it do? What problem does it solve?
+            Why did you build it?
+          </p>
+          <!-- <div class="project-stack">
+            <span>React</span><span>Node.js</span><span>MongoDB</span>
+          </div> -->
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link" target="_blank">Live ↗</a>
+          <a href="#" class="project-link" target="_blank">Code ↗</a>
+        </div>
+      </article>
+
+      <!-- <article class="project-item">
+        <div class="project-meta">
+          <span class="project-num">02</span>
+          <span class="project-type">Security</span>
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">Security Tool / CTF Write-up</h3>
+          <p class="project-desc">
+            A cybersecurity project or CTF challenge you completed.
+            CTF write-ups are great here — shows you can think like an attacker.
+          </p>
+          <div class="project-stack">
+            <span>Python</span><span>Kali Linux</span><span>Networking</span>
+          </div>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link" target="_blank">Write-up ↗</a>
+          <a href="#" class="project-link" target="_blank">Code ↗</a>
+        </div>
+      </article> -->
+
+      <!-- <article class="project-item">
+        <div class="project-meta">
+          <span class="project-num">03</span>
+          <span class="project-type">AI / ML</span>
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">AI-Powered Project</h3>
+          <p class="project-desc">
+            An ML model, chatbot, or classifier you built or experimented with.
+            Even academic projects count — show your thinking.
+          </p>
+          <div class="project-stack">
+            <span>Python</span><span>TensorFlow</span><span>Flask</span>
+          </div>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link" target="_blank">Demo ↗</a>
+          <a href="#" class="project-link" target="_blank">Code ↗</a>
+        </div>
+      </article> -->
+
+      <!-- <article class="project-item">
+        <div class="project-meta">
+          <span class="project-num">04</span>
+          <span class="project-type">Cloud</span>
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">Cloud Infrastructure Project</h3>
+          <p class="project-desc">
+            Something you actually deployed. Even a simple app on AWS counts —
+            it shows you've touched real infrastructure, not just localhost.
+          </p>
+          <div class="project-stack">
+            <span>AWS</span><span>Docker</span><span>Linux</span>
+          </div>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link" target="_blank">Live ↗</a>
+          <a href="#" class="project-link" target="_blank">Code ↗</a>
+        </div>
+      </article> -->
+
+    </div>
+  </section>
+
+  <!-- ======= CONTACT ======= -->
+  <section class="contact section" id="contact">
+    <div class="section-label">04 — Contact</div>
+    <div class="contact-body">
+      <h2 class="contact-heading">
+        Let's build<br/><em>something.</em>
+      </h2>
+      <div class="contact-right">
+        <p class="contact-sub">
+          Whether it's a job, a project, a collab, or just a conversation —
+          I'm always down to hear from and meeting new and interesting people.
+         
+        </p>
+        <form class="contact-form" action:"https://formspree.io/f/mzdjqgdb" method="POST">
+          <div class="form-row">
+            <div class="form-field">
+              <label for="fname">Name</label>
+              <input type="text" id="fname" placeholder="Your name" required />
+            </div>
+            <div class="form-field">
+              <label for="femail">Email</label>
+              <input type="email" id="femail" placeholder="your@email.com" required />
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="fmessage">Message</label>
+            <textarea id="fmessage" rows="5" placeholder="What's on your mind?" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary" id="submitBtn">Send it</button>
+          <p class="form-success" id="formSuccess">✓ Sent! I'll get back to you soon.</p>
+        </form>
+        <div class="contact-links">
+          <!-- EDIT: your actual social links -->
+          <a href="https://github.com/IvanTeks" target="_blank">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/ivan-tekenah-a6700a35b/ " target="_blank">LinkedIn ↗</a>
+          <a href="mailto:ivantekenah@outlook.com">Email ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="footer">
+    <span>© 2026 Shepard</span>
+    
+    <span>Designed &amp; built by yours truly</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
